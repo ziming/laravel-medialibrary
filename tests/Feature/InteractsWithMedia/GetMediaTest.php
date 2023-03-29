@@ -294,12 +294,12 @@ it('will return preloaded media sorting on order column', function () {
         ->toArray());
 });
 
-it('will set model relation', function() {
+it('will set model relation', function () {
     DB::enableQueryLog();
 
     $this->testModel->loadMedia('images');
     expect(DB::getQueryLog())->toHaveCount(1);
-    $this->testModel->media->each(function(Media $media) {
+    $this->testModel->media->each(function (Media $media) {
         expect($media->model)->toBeInstanceOf($this->testModel::class);
     });
 
