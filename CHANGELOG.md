@@ -2,6 +2,19 @@
 
 All notable changes to `laravel-medialibrary` will be documented in this file
 
+## 10.7.14 - 2023-03-29
+
+### What's Changed
+
+- Failing tests due to testbench error. Upgraded Laravel dependencies t… by @benjam-es in https://github.com/spatie/laravel-medialibrary/pull/3211
+- Set model relation on InteractsWithMedia@loadMedia() by @cosmastech in https://github.com/spatie/laravel-medialibrary/pull/3219
+
+### New Contributors
+
+- @cosmastech made their first contribution in https://github.com/spatie/laravel-medialibrary/pull/3219
+
+**Full Changelog**: https://github.com/spatie/laravel-medialibrary/compare/10.7.13...10.7.14
+
 ## 10.7.13 - 2023-03-06
 
 ### What's Changed
